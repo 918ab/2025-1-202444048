@@ -1,0 +1,10 @@
+D:\B_202444048\FirstSln\FirstForm\bin\Debug\FirstForm.exe.config
+D:\B_202444048\FirstSln\FirstForm\bin\Debug\FirstForm.exe
+D:\B_202444048\FirstSln\FirstForm\bin\Debug\FirstForm.pdb
+D:\B_202444048\FirstSln\FirstForm\obj\Debug\FirstForm.csproj.AssemblyReference.cache
+D:\B_202444048\FirstSln\FirstForm\obj\Debug\FirstForm.Properties.Resources.resources
+D:\B_202444048\FirstSln\FirstForm\obj\Debug\FirstForm.csproj.GenerateResource.cache
+D:\B_202444048\FirstSln\FirstForm\obj\Debug\FirstForm.csproj.CoreCompileInputs.cache
+D:\B_202444048\FirstSln\FirstForm\obj\Debug\FirstForm.exe
+D:\B_202444048\FirstSln\FirstForm\obj\Debug\FirstForm.pdb
+D:\B_202444048\FirstSln\FirstForm\obj\Debug\FirstForm.Form1.resources

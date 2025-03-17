@@ -1,0 +1,7 @@
+D:\B_202444048\FirstSln\FirstApp\bin\Debug\FirstApp.exe.config
+D:\B_202444048\FirstSln\FirstApp\bin\Debug\FirstApp.exe
+D:\B_202444048\FirstSln\FirstApp\bin\Debug\FirstApp.pdb
+D:\B_202444048\FirstSln\FirstApp\obj\Debug\FirstApp.csproj.AssemblyReference.cache
+D:\B_202444048\FirstSln\FirstApp\obj\Debug\FirstApp.csproj.CoreCompileInputs.cache
+D:\B_202444048\FirstSln\FirstApp\obj\Debug\FirstApp.exe
+D:\B_202444048\FirstSln\FirstApp\obj\Debug\FirstApp.pdb
