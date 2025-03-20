@@ -1,95 +1,121 @@
 int iValue1 = 100;
-		int iValue2 = -100;
-		double dValue1 = 3.14;
-		double dValue2 = -10.5;
-		
-		int result1 = +iValue1;
-		int result2 = -iValue1;
-		System.out.println("result1 : "+result1);
-		System.out.println("result1 : "+result2);
-		
-		int x = 10;
-		System.out.println("x : " + (x++)); //10
-		System.out.println("x : " + (++x)); //12
-		
-		//단항연산자 : 비트 반전 연산자(~)
-		//2진수 연산자
-		int var1 = 10;
-		int var2 = ~var1;
-		int var3 = ~var1 + 1;
-		
-		System.out.println(var1);
-		System.out.println(var2);
-		System.out.println(var3);
-		
-		System.out.printf("십진수(%d) :%32s\n", var1, Integer.toBinaryString(var1));
-		System.out.printf("십진수(%d):%32s\n", var2, Integer.toBinaryString(var2));
-		System.out.printf("십진수(%d):%32s\n", var3, Integer.toBinaryString(var3));
-		//십진수(10) :                            1010
-		//십진수(-11):11111111111111111111111111110101
-		//십진수(-10):11111111111111111111111111110110
-		// % 나머지
-		
-		//이항 연산자 &, |, ^
-		byte num1 = 45;
-		byte num2 = 25;
-		int result = num1 & num2;
+int iValue2 = -100;
+double dValue1 = 3.14;
+double dValue2 = -10.5;
 
-		System.out.println("num1 : "+ num1);
-		System.out.println("num2 : "+ num2);
-		System.out.println("result : "+ result);
-		
-		System.out.println("num1   : "+ Integer.toBinaryString(num1));
-		System.out.println("num2   :  "+ Integer.toBinaryString(num2));
-		System.out.println("result :   "+ Integer.toBinaryString(result));
-		//둘다 1일때만 1 AND (&)
-		//num1   : 101101
-		//num2   :  11001
-		//result :   1001 = 9
-		
-		
-		result = num1 | num2;
-		System.out.println("result : "+ result);
-		System.out.println("num1   : "+ Integer.toBinaryString(num1));
-		System.out.println("num2   :  "+ Integer.toBinaryString(num2));
-		System.out.println("result : "+ Integer.toBinaryString(result));
-		//둘중 한개가 1일때만 1 OR (|)
-		//num1   : 101101
-		//num2   :  11001
-		//result : 111101 = 61
-		
-		result = num1 ^ num2;
-		System.out.println("result : "+ result);
-		System.out.println("num1   : "+ Integer.toBinaryString(num1));
-		System.out.println("num2   :  "+ Integer.toBinaryString(num2));
-		System.out.println("result : "+ Integer.toBinaryString(result));
-		//둘중 한개만 1일때 1 XOR (^)
-		//num1   : 101101
-		//num2   :  11001
-		//result : 110100 = 52
-		
-		//비트 이동 연산자 << , >>
-		System.out.println("1 << 3 = " + (1<<3) );
-		System.out.printf("1     :%8s \n", Integer.toBinaryString(1));
-		System.out.printf("(1<<3):%8s \n", Integer.toBinaryString(1<<3));
-		//1 << 3 = 8
-		//1     :       1 
-		//(1<<3):    1000
-		
-		
-		System.out.println("-8 >> 3 = " + (-8>>3) );
-		System.out.printf("-8     :%8s \n", Integer.toBinaryString(-8));
-		System.out.printf("(-8>>3):%8s \n", Integer.toBinaryString(-8>>3));
-		//-8 >> 3 = -1
-		//-8     :11111111111111111111111111111000 
-		//(-8>>3):11111111111111111111111111111111
-		
-		//상항 연산자 -> (조건식) ? 참인경우 : 거짓인경우
-		//int a = 10;
-		//String results = a >= 5 ? "5이상" : "5미만";
-		//results : 5이상
-		
-		int score = 85;
-		String str = (score >= 90) ? "우수" :
-			(score >= 80) ? "보통" : "미달";
-		System.out.println(score+str);
+int result1 = +iValue1;
+int result2 = -iValue1;
+System.out.println("result1 : "+result1);
+System.out.println("result1 : "+result2);
+
+int x = 10;
+System.out.println("x : " + (x++)); //10
+System.out.println("x : " + (++x)); //12
+
+//단항연산자 : 비트 반전 연산자(~)
+//2진수 연산자
+int var1 = 10;
+int var2 = ~var1;
+int var3 = ~var1 + 1;
+
+System.out.println(var1);
+System.out.println(var2);
+System.out.println(var3);
+
+System.out.printf("십진수(%d) :%32s\n", var1, Integer.toBinaryString(var1));
+System.out.printf("십진수(%d):%32s\n", var2, Integer.toBinaryString(var2));
+System.out.printf("십진수(%d):%32s\n", var3, Integer.toBinaryString(var3));
+//십진수(10) :                            1010
+//십진수(-11):11111111111111111111111111110101
+//십진수(-10):11111111111111111111111111110110
+// % 나머지
+
+//이항 연산자 &, |, ^
+byte num1 = 45;
+byte num2 = 25;
+int result = num1 & num2;
+
+System.out.println("num1 : "+ num1);
+System.out.println("num2 : "+ num2);
+System.out.println("result : "+ result);
+
+System.out.println("num1   : "+ Integer.toBinaryString(num1));
+System.out.println("num2   :  "+ Integer.toBinaryString(num2));
+System.out.println("result :   "+ Integer.toBinaryString(result));
+//둘다 1일때만 1 AND (&)
+//num1   : 101101
+//num2   :  11001
+//result :   1001 = 9
+
+
+result = num1 | num2;
+System.out.println("result : "+ result);
+System.out.println("num1   : "+ Integer.toBinaryString(num1));
+System.out.println("num2   :  "+ Integer.toBinaryString(num2));
+System.out.println("result : "+ Integer.toBinaryString(result));
+//둘중 한개가 1일때만 1 OR (|)
+//num1   : 101101
+//num2   :  11001
+//result : 111101 = 61
+
+result = num1 ^ num2;
+System.out.println("result : "+ result);
+System.out.println("num1   : "+ Integer.toBinaryString(num1));
+System.out.println("num2   :  "+ Integer.toBinaryString(num2));
+System.out.println("result : "+ Integer.toBinaryString(result));
+//둘중 한개만 1일때 1 XOR (^)
+//num1   : 101101
+//num2   :  11001
+//result : 110100 = 52
+
+//비트 이동 연산자 << , >>
+System.out.println("1 << 3 = " + (1<<3) );
+System.out.printf("1     :%8s \n", Integer.toBinaryString(1));
+System.out.printf("(1<<3):%8s \n", Integer.toBinaryString(1<<3));
+//1 << 3 = 8
+//1     :       1 
+//(1<<3):    1000
+
+
+System.out.println("-8 >> 3 = " + (-8>>3) );
+System.out.printf("-8     :%8s \n", Integer.toBinaryString(-8));
+System.out.printf("(-8>>3):%8s \n", Integer.toBinaryString(-8>>3));
+//-8 >> 3 = -1
+//-8     :11111111111111111111111111111000 
+//(-8>>3):11111111111111111111111111111111
+
+//상항 연산자 -> (조건식) ? 참인경우 : 거짓인경우
+//int a = 10;
+//String results = a >= 5 ? "5이상" : "5미만";
+//results : 5이상
+
+int score = 85;
+String str = (score >= 90) ? "우수" :
+	(score >= 80) ? "보통" : "미달";
+System.out.println(score+str);
+
+
+실습1)
+
+int score =50;
+System.out.println("초기 점수 : "+score);
+System.out.println("정답 보너스 (+10) : "+ (score += 10));
+System.out.println("오답 감점 (-5) : "+ (score -= 5));
+System.out.println("보너스 문제 정답 (x2) : "+ (score *= 2));
+System.out.println("추가 점수 (+1) : "+ (++ score));
+System.out.println("감점 (-1) : "+ (-- score));
+System.out.println("최종 점수 : "+score);
+
+
+
+실습2)
+
+int mlik = 4500;
+int carrot = 1000;
+int snack = 1500;
+int before = mlik*1 + carrot*3 + snack*2;
+System.out.println("할인 전 상품 금액 : "+before +"원");
+double discount = before * 0.1;
+System.out.println("할인 금액 : "+discount +"원");
+double after = before - discount; 
+System.out.println("최종 결제 금액 : "+after +"원");
