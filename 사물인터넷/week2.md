@@ -49,10 +49,7 @@ void loop()
 </details>
 
 # Log
-<details>
-<summary>LED Turn On/Off"</summary>
-<p></p>
-  
+
 * Serial
   * `Serial.begin(9600);`
   * `Serial.print("1");`
@@ -63,4 +60,6 @@ void loop()
   * `digitalWrite(7, LOW);`
   * `digitalWrite(8, HIGH);`
 * pinMode
+  * `pinMode(TRIG, OUTPUT);`
+  * `pinMode(ECHO, INPUT);`
 </details>
