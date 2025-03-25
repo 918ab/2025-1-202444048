@@ -1,3 +1,15 @@
+![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=Arduino&logoColor=white) 
+ ![date](https://img.shields.io/badge/Date-2025--03--18_(week3)-green)
+ <br>
+![influxdb](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=InfluxDB&logoColor=white)
+
+# Influxdb
+
+<details>
+<summary>Data written to InfluxDB</summary>
+<p></p>
+  
+```c
 from influxdb_client import InfluxDBClient
 import time
 import serial
@@ -42,3 +54,4 @@ except KeyboardInterrupt:
 
 finally:
     ser.close()
+```
