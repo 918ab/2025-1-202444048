@@ -66,3 +66,17 @@ void loop()
 ```
 </details>
 
+# Log
+
+* lcd
+  * `LiquidCrystal_I2C lcd(0x27, 16, 2);`
+  * `lcd.init();`
+  * `lcd.backlight();`
+  * `lcd.print("LCD init");`
+  * `lcd.clear();`
+  * `lcd.setCursor(16,0);`
+  * `lcd.scrollDisplayLeft();`
+* Wire
+  * `Wire.begin();`
+  * `Wire.beginTransmission(address);`
+  * `if(Wire.endTransmission() == 0)`
