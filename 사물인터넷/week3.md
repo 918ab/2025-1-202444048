@@ -55,3 +55,7 @@ except KeyboardInterrupt:
 finally:
     ser.close()
 ```
+</details>
+
+# Log
+
