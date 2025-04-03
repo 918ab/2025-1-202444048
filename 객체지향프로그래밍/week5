@@ -1,0 +1,126 @@
+//1~100까지의 합 구하기
+//누적 값을 저장하기 위해서는 변수 초기화 필수
+int sum = 0;
+for(int i = 1;i<=100;i++) {
+  sum += i;
+}
+System.out.println("1~100까지의 합 : " + sum);
+
+
+int num = (int) (Math.random() * 10 + 1);
+System.out.println("랜덤 숫자 :"+num);
+for(int i = 1; i<=num; i++) {
+  System.out.print("★");
+}
+
+System.out.println();
+
+
+Scanner sc = new Scanner(System.in);
+System.out.printf("구구단 몇단 : ");
+
+int scanData = sc.nextInt();
+for(int i = 1; i<=9; i++) {
+  System.out.println(scanData + " X " + i + " = "+scanData*i);
+  //System.out.printf("%d X %d = %d \n",scanData, i, (scanData*i));
+}
+
+for(int i = 2; i<=9; i++) {
+  System.out.println("=============");
+  System.out.println("구구단 "+i+"단");
+  System.out.println("=============");
+  for(int j = 1; j<=9; j++) {
+    System.out.println(i + " X " + j + " = "+i*j);
+  }
+}
+
+int whilesum = 0;
+int numm = 1;
+while(numm <= 100) {
+  whilesum += numm;
+  numm ++;
+}
+System.out.println(whilesum);
+
+ int num1, num2;
+ 
+ while(true) {
+   System.out.print("첫번째 숫자 >> "); num1 = sc.nextInt();
+ 
+   System.out.print("두번째 숫자 >> "); num2 = sc.nextInt();
+ 
+   System.out.println(num1 + " + " + num2 + " = "+(num1+num2));
+ }
+ 
+
+System.out.println("메시지를 입력하세요.");
+System.out.println("프로그램을 종료하려면 q를 입력하세요.");
+
+String inStr;
+do {
+  System.out.print(">> ");
+  inStr = sc.nextLine();
+  System.out.println(inStr);
+} while(!inStr.equals("q"));
+System.out.println("프로그램 종료");
+
+
+int random;
+do {
+  random = (int) (Math.random() * 10 + 1);
+  System.out.println("랜덤 숫자 : "+random);
+} while(random != 7);
+System.out.println("프로그램 종료");
+
+
+for(int i = 1; i<=100;i++) {
+  if(i%2 != 0) {
+    System.out.println(i);
+  }else {
+    continue;
+  }
+}
+int sumc = 0;
+for(int i = 1; i<=100;i++) {
+  if(i %3 == 0) {
+    continue;
+  }
+  sumc += i;
+}
+System.out.println(sumc);
+
+
+
+for(int i = 1; i<=3;i++) {
+  for(int j = 1; j<=5;j++) {
+    System.out.print("* ");
+  }
+  System.out.print("\n");
+}
+
+while(true) {
+  System.out.print("정수 입력 >> ");
+  int score = Integer.parseInt(sc.nextLine());
+  if(score <= 0 ) {
+    System.out.println("프로그램 종료");
+    break;
+  }
+  System.out.println("\nSCORE		GRADE");
+  System.out.println("==================");
+  System.out.print(score+"		");
+  if(score >=90) {
+    System.out.print("A");
+  }else if(score > 80) {
+    System.out.print("B");
+  }else if(score > 70) {
+    System.out.print("C");
+  }else if(score > 60) {
+    System.out.print("D");
+  }else {
+    System.out.print("F");
+  }
+  System.out.println("");
+}
+
+
+sc.close();
