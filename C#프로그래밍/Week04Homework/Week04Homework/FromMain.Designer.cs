@@ -698,6 +698,7 @@
             this.btnTestRegScore.TabIndex = 41;
             this.btnTestRegScore.Text = "수정 및 완료";
             this.btnTestRegScore.UseVisualStyleBackColor = true;
+            this.btnTestRegScore.Click += new System.EventHandler(this.btnTestRegScore_Click);
             // 
             // btnTestSearchStudent
             // 
