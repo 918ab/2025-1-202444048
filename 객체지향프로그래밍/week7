@@ -1,0 +1,115 @@
+# Korea.java
+String nation = "대한민국";
+String name;
+String ssn;
+String phone;
+
+Korea(String name,String ssn, String phone){
+  this.name = name;
+  this.ssn = ssn;
+  this.phone = phone;
+}
+
+# Car.java
+//자동차  객체를 만들기 위한 라이브러리 
+String company = "현대자동차";
+String model;
+String color;
+int maxSpeed;
+int speed;
+//.생성자 오버로딩(Over Loading) => 생성자를 다양하게 제공
+Car(){
+  
+}
+Car(String model){
+//		this.model = model;
+//		this.color = "black";
+//		this.maxSpeed = 300;
+this(model,"black",300);
+}
+
+Car(String model, String color){
+//		this.model = model;
+//		this.color = color;
+//		this.maxSpeed = 300;
+  this(model, color, 250);
+}
+//매개 변수로 초기값을 받아서 초기화하는 생성자 선언
+//생성자가 선언되면 기본 생성자는 자동으로 만들어지지 않음
+Car(String m, String c, int maxS){
+  this.model = m;
+  this.color = c;
+  this.maxSpeed = maxS; 
+}
+
+# Pet.java
+String name;
+String type;
+int age;
+Pet(String name, String type, int age){
+  this.name = name;
+  this.type = type;
+  this.age = age;
+}
+
+# main.java
+String name = new String("홍길동");
+Student st1 = new Student();
+//st1 변수는 Student 객체를 참조한다.
+
+//설계도에 해당하는 클래스는 인스턴스를 여러 개 생성할 수 있다.
+Student st2 = new Student();
+//st2 변수는 또 다른 STudent 객체를 참조한다.
+
+Car mycar = new Car();
+//필드값 출력
+System.out.println("제작회사 : "+mycar.company);
+System.out.println("모델 : "+mycar.model);
+System.out.println("색상 : "+mycar.color);
+System.out.println("최고속도 : "+mycar.maxSpeed);
+System.out.println("현재 속도 : "+mycar.speed);
+
+mycar.speed = 100;
+System.out.println("현재 속도 : "+mycar.speed);
+
+Car yourcar = new Car();
+System.out.println("제작회사 : "+yourcar.company);
+System.out.println("모델 : "+yourcar.model);
+System.out.println("색상 : "+yourcar.color);
+System.out.println("최고속도 : "+yourcar.maxSpeed);
+System.out.println("현재 속도 : "+yourcar.speed);
+
+//매개 변수로 초기화하는 생성자로 객체 생성
+Car mycar2 = new Car("제네시스","white",350);
+System.out.println("제작회사 : "+mycar2.company);
+System.out.println("모델 : "+mycar2.model);
+System.out.println("색상 : "+mycar2.color);
+System.out.println("최고속도 : "+mycar2.maxSpeed);
+System.out.println("현재 속도 : "+mycar2.speed);
+
+
+Korea k1 = new Korea("홍길동","123456-123456","010-1234-1234");
+System.out.println("k1.nation = "+k1.nation);
+System.out.println("k1.name = "+k1.name);
+System.out.println("k1.ssn = "+k1.ssn);
+System.out.println("k1.phone = "+k1.phone);
+
+//객체 생성 시 초기화
+Car c1 = new Car();
+System.out.printf("c1 : %s %s %d \n",c1.model,c1.color,c1.maxSpeed);
+
+Car c2 = new Car("그랜저");
+System.out.printf("c2 : %s %s %d \n",c2.model,c2.color,c2.maxSpeed);
+
+Car c3 = new Car("그랜저","white");
+System.out.printf("c3 : %s %s %d \n",c3.model,c3.color,c3.maxSpeed);
+
+Car c4 = new Car("그랜저","navy",250);
+System.out.printf("c4 : %s %s %d \n",c4.model,c4.color,c4.maxSpeed);
+
+Pet pet = new Pet("바둑이","강아지",3,"흰색");
+System.out.println("<애완동물 정보>");
+System.out.println("이름 : "+pet.name);
+System.out.println("종류 : "+pet.type);
+System.out.println("나이 : "+pet.age+"살");
+System.out.println("색깔 : "+pet.color);
