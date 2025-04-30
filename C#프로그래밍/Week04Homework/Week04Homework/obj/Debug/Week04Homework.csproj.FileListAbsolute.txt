@@ -1,40 +1,10 @@
-C:\Users\PC\Downloads\202444048금경태\Week04Homework\bin\Debug\Week04Homework.exe.config
-C:\Users\PC\Downloads\202444048금경태\Week04Homework\bin\Debug\Week04Homework.exe
-C:\Users\PC\Downloads\202444048금경태\Week04Homework\bin\Debug\Week04Homework.pdb
-C:\Users\PC\Downloads\202444048금경태\Week04Homework\obj\Debug\Week04Homework.csproj.AssemblyReference.cache
-C:\Users\PC\Downloads\202444048금경태\Week04Homework\obj\Debug\Week04Homework.FormManager.resources
-C:\Users\PC\Downloads\202444048금경태\Week04Homework\obj\Debug\Week04Homework.Properties.Resources.resources
-C:\Users\PC\Downloads\202444048금경태\Week04Homework\obj\Debug\Week04Homework.csproj.GenerateResource.cache
-C:\Users\PC\Downloads\202444048금경태\Week04Homework\obj\Debug\Week04Homework.csproj.CoreCompileInputs.cache
-C:\Users\PC\Downloads\202444048금경태\Week04Homework\obj\Debug\Week04Homework.exe
-C:\Users\PC\Downloads\202444048금경태\Week04Homework\obj\Debug\Week04Homework.pdb
-C:\Users\rmaru\Downloads\2025-1-202444048-main\2025-1-202444048-main\C#프로그래밍\Week04Homework\Week04Homework\bin\Debug\Week04Homework.exe.config
-C:\Users\rmaru\Downloads\2025-1-202444048-main\2025-1-202444048-main\C#프로그래밍\Week04Homework\Week04Homework\bin\Debug\Week04Homework.exe
-C:\Users\rmaru\Downloads\2025-1-202444048-main\2025-1-202444048-main\C#프로그래밍\Week04Homework\Week04Homework\bin\Debug\Week04Homework.pdb
-C:\Users\rmaru\Downloads\2025-1-202444048-main\2025-1-202444048-main\C#프로그래밍\Week04Homework\Week04Homework\obj\Debug\Week04Homework.csproj.AssemblyReference.cache
-C:\Users\rmaru\Downloads\2025-1-202444048-main\2025-1-202444048-main\C#프로그래밍\Week04Homework\Week04Homework\obj\Debug\Week04Homework.FormManager.resources
-C:\Users\rmaru\Downloads\2025-1-202444048-main\2025-1-202444048-main\C#프로그래밍\Week04Homework\Week04Homework\obj\Debug\Week04Homework.Properties.Resources.resources
-C:\Users\rmaru\Downloads\2025-1-202444048-main\2025-1-202444048-main\C#프로그래밍\Week04Homework\Week04Homework\obj\Debug\Week04Homework.csproj.GenerateResource.cache
-C:\Users\rmaru\Downloads\2025-1-202444048-main\2025-1-202444048-main\C#프로그래밍\Week04Homework\Week04Homework\obj\Debug\Week04Homework.csproj.CoreCompileInputs.cache
-C:\Users\rmaru\Downloads\2025-1-202444048-main\2025-1-202444048-main\C#프로그래밍\Week04Homework\Week04Homework\obj\Debug\Week04Homework.exe
-C:\Users\rmaru\Downloads\2025-1-202444048-main\2025-1-202444048-main\C#프로그래밍\Week04Homework\Week04Homework\obj\Debug\Week04Homework.pdb
-C:\Users\rmaru\OneDrive\바탕 화면\과제\C#\Week04GeumgYeongTae\Week04Homework\bin\Debug\Week04Homework.exe.config
-C:\Users\rmaru\OneDrive\바탕 화면\과제\C#\Week04GeumgYeongTae\Week04Homework\bin\Debug\Week04Homework.exe
-C:\Users\rmaru\OneDrive\바탕 화면\과제\C#\Week04GeumgYeongTae\Week04Homework\bin\Debug\Week04Homework.pdb
-C:\Users\rmaru\OneDrive\바탕 화면\과제\C#\Week04GeumgYeongTae\Week04Homework\obj\Debug\Week04Homework.csproj.AssemblyReference.cache
-C:\Users\rmaru\OneDrive\바탕 화면\과제\C#\Week04GeumgYeongTae\Week04Homework\obj\Debug\Week04Homework.FormManager.resources
-C:\Users\rmaru\OneDrive\바탕 화면\과제\C#\Week04GeumgYeongTae\Week04Homework\obj\Debug\Week04Homework.Properties.Resources.resources
-C:\Users\rmaru\OneDrive\바탕 화면\과제\C#\Week04GeumgYeongTae\Week04Homework\obj\Debug\Week04Homework.csproj.GenerateResource.cache
-C:\Users\rmaru\OneDrive\바탕 화면\과제\C#\Week04GeumgYeongTae\Week04Homework\obj\Debug\Week04Homework.csproj.CoreCompileInputs.cache
-C:\Users\rmaru\OneDrive\바탕 화면\과제\C#\Week04GeumgYeongTae\Week04Homework\obj\Debug\Week04Homework.exe
-C:\Users\rmaru\OneDrive\바탕 화면\과제\C#\Week04GeumgYeongTae\Week04Homework\obj\Debug\Week04Homework.pdb
-C:\Users\PC\Downloads\Week04Homework\Week04Homework\bin\Debug\Week04Homework.exe.config
-C:\Users\PC\Downloads\Week04Homework\Week04Homework\bin\Debug\Week04Homework.exe
-C:\Users\PC\Downloads\Week04Homework\Week04Homework\bin\Debug\Week04Homework.pdb
-C:\Users\PC\Downloads\Week04Homework\Week04Homework\obj\Debug\Week04Homework.csproj.AssemblyReference.cache
-C:\Users\PC\Downloads\Week04Homework\Week04Homework\obj\Debug\Week04Homework.FormManager.resources
-C:\Users\PC\Downloads\Week04Homework\Week04Homework\obj\Debug\Week04Homework.Properties.Resources.resources
-C:\Users\PC\Downloads\Week04Homework\Week04Homework\obj\Debug\Week04Homework.csproj.GenerateResource.cache
-C:\Users\PC\Downloads\Week04Homework\Week04Homework\obj\Debug\Week04Homework.csproj.CoreCompileInputs.cache
-C:\Users\PC\Downloads\Week04Homework\Week04Homework\obj\Debug\Week04Homework.exe
-C:\Users\PC\Downloads\Week04Homework\Week04Homework\obj\Debug\Week04Homework.pdb
+C:\Users\PC\Desktop\7주차 수업코드\Week04Homework\bin\Debug\Week04Homework.exe.config
+C:\Users\PC\Desktop\7주차 수업코드\Week04Homework\bin\Debug\Week04Homework.exe
+C:\Users\PC\Desktop\7주차 수업코드\Week04Homework\bin\Debug\Week04Homework.pdb
+C:\Users\PC\Desktop\7주차 수업코드\Week04Homework\obj\Debug\Week04Homework.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\7주차 수업코드\Week04Homework\obj\Debug\Week04Homework.FormManager.resources
+C:\Users\PC\Desktop\7주차 수업코드\Week04Homework\obj\Debug\Week04Homework.Properties.Resources.resources
+C:\Users\PC\Desktop\7주차 수업코드\Week04Homework\obj\Debug\Week04Homework.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\7주차 수업코드\Week04Homework\obj\Debug\Week04Homework.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\7주차 수업코드\Week04Homework\obj\Debug\Week04Homework.exe
+C:\Users\PC\Desktop\7주차 수업코드\Week04Homework\obj\Debug\Week04Homework.pdb

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{73E76B72-6889-4117-BA36-B55B725C88E9}</ProjectGuid>
+    <ProjectGuid>{CB3560D5-F16B-4316-9766-B020D8D327E9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Week04Homework</RootNamespace>
     <AssemblyName>Week04Homework</AssemblyName>
@@ -46,20 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Grade.cs" />
     <Compile Include="Department.cs" />
-    <Compile Include="FromMain.cs">
+    <Compile Include="FormManager.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FromMain.Designer.cs">
-      <DependentUpon>FromMain.cs</DependentUpon>
+    <Compile Include="FormManager.Designer.cs">
+      <DependentUpon>FormManager.cs</DependentUpon>
     </Compile>
+    <Compile Include="Grade.cs" />
     <Compile Include="Professor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student.cs" />
-    <EmbeddedResource Include="FromMain.resx">
-      <DependentUpon>FromMain.cs</DependentUpon>
+    <EmbeddedResource Include="FormManager.resx">
+      <DependentUpon>FormManager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -14,7 +14,7 @@ namespace Week04Homework
 
         public override string ToString()
         {
-            return $"[{Number}] {Name}";
+            return $"[{Number}]{Name}";
         }
     }
 }
